@@ -13,7 +13,9 @@ export 'package:linkify/linkify.dart'
         UrlElement,
         UrlLinkifier,
         EmailElement,
-        EmailLinkifier;
+        EmailLinkifier,
+        UserTagElement,
+        UserTagLinkifier;
 
 /// Callback clicked link
 typedef LinkCallback = void Function(LinkableElement link);
